@@ -211,7 +211,7 @@ campaignTrail_temp.temp_election_list = [
 ]
 
 jet_data = {
-    "headerColor": "#E7E1D5",
+    "headerColor": "#3F4243",
     "windowColor": "#e7e1d5",
     "containerColor": "#C1C4C6",
     "innerWindowColor": "#e7e1d5",
@@ -225,7 +225,7 @@ jet_data = {
 
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#E7E1D5";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#3F4243";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#e7e1d5";
 
@@ -248,7 +248,7 @@ style.id = 'dynamic-style';
 
 style.innerHTML = `
   .campaign_trail_start_emphasis {
-    background-color: #E7E1D5;
+    background-color: #3F4243;
   }
   #state_info h3 {
     background-color: #C1C4C6;
