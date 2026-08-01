@@ -1,0 +1,244 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 3,
+        "fields": {
+            "year": 2012,
+            "summary": "<p>James Talarico hopes to end decades of Republican dominance in Texas, while Ken Paxton looks to keep the state firmly in the GOP column. Paxton’s scandals, Trump’s unpopularity, and a favorable national environment for Democrats loom large in the 2026 election.</p> <ul><li>Talarico will attempt to turn his growing national profile and reform-minded message into a historic statewide victory.</li><li>Paxton will try to rally the Republican base and frame Talarico as too liberal for Texas, all while battling scandals and controversy.</li></ul>\n",
+            "image_url": "https://www.jetsimon.com/public/static/images/2012-election-photo.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/carville-rove.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Political News and Analysis</h4> <a href=\"http://www.realclearpolitics.com/\" target=\"_blank\">Real Clear Politics</a> -- <a href=\"http://www.theatlantic.com/\" target=\"_blank\">The Atlantic</a> -- <a href=\"http://www.politico.com/\" target=\"_blank\">Politico</a> -- <a href=\"http://www.huffingtonpost.com/\" target=\"_blank\">Huffington Post</a> -- <a href=\"http://www.foxnews.com/politics/index.html\" target=\"_blank\">Fox News Politics</a> <h4>Books by the Candidates</h4>Barack Obama - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1400082773/amhius20-20\" target=\"_blank\">Dreams from My Father: A Story of Race and Inheritance</a><br>Barack Obama - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0307455874/amhius20-20\" target=\"_blank\">The Audacity of Hope: Thoughts on Reclaiming the American Dream (Vintage)</a><br> Mitt Romney - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0312671733/amhius20-20\" target=\"_blank\">No Apology: Believe in America</a><br> Gary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a><h4>Politics in 2012</h4> Edward Klein - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1596987855/amhius20-20\" target=\"_blank\">The Amateur</a><br>Michael Kranish & Scott Helman - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0062123289/amhius20-20\" target=\"_blank\">The Real Romney</a><br>Lawrence Lessig - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0446576433/amhius20-20\" target=\"_blank\">Republic, Lost: How Money Corrupts Congress--and a Plan to Stop It</a><br>Ron Suskind - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0061429252/amhius20-20\" target=\"_blank\">Confidence Men: Wall Street, Washington, and the Education of a President</a><h4>The Financial Crisis</h4> Johan Norberg - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1935308130/amhius20-20\" target=\"_blank\">Financial Fiasco: How America's Infatuation with Home Ownership and Easy Money Created the Economic Crisis</a><br>John Bellamy Foster & Fred Magdoff - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1583671846/amhius20-20\" target=\"_blank\">The Great Financial Crisis: Causes and Consequences</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2026TX"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 16,
+        "fields": {
+            "first_name": "James",
+            "last_name": "Talarico",
+            "election": 3,
+            "party": "Democrat",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>Over a decade ago, James Dell Talarico was a middle school teacher at Rhodes Middle School in West San Antonio. In 2018, at only 28 years old, he was elected to the Texas State House. After being invited on The Joe Rogan Experience in July 2025, he started to get attention from the media and eventually announced his candidacy for the US Senate in September. Former Congressman Colin Allred, his main opponent in the primary, dropped out in December, which led to Congresswoman Jasmine Crockett’s entry into the race. Although Talarico trailed Crockett in the majority of early polls, an appearance on The View boosted his name recognition. After an interview that was prevented from being broadcast on The Late Show with Stephen Colbert amassed over five million views on YouTube in its first 24 hours, Talarico received even more attention, which essentially led to his primary win in March.</p><p>Texas has not elected a Democrat to statewide office since 1990, nor to the US Senate since 1988. However, with Trump’s unpopularity in Texas, the scandalous history of Republican nominee Ken Paxton, and a blue wave seeming inevitable, a potential Democratic upset is entirely possible. Can Talarico ride the blue wave to become the first Democrat elected statewide in Texas in over three decades, or will he be overestimated by the polls and become another short-lived fad to turn the Lone Star State blue?</p>",
+            "color_hex": "#1e6fa3",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://www.jetsimon.com/public/static/images/barack-obama-2012.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2012 election.</h3><p>In spite of a hard-fought challenge from Mitt Romney, you have held on to the Presidency.</p><p>On the political front, it appears that your health care legislation that was passed in early 2010 will survive and go into effect. While the economy has not yet recovered as strongly as you hoped and promised, you will now have four more years to leave a strong legacy to your Democratic successor.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3><p>In spite of your spirited defense, Mitt Romney has won the Presidency. Nearly two centuries after the ill-fated campaign of Joseph Smith, Romney will become America's first Mormon president.</p><p>On the political front, it appears that Romney will make a push for more tax cuts to revive the economy. He will also try to repeal your health care law. If your defeat was narrow enough, you may be able to attempt a comeback in 2016.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Unfortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for Mitt Romney.</p><p>Given the incredibly close nature of the election, you can probably set your sights on a political comeback in 2016, if that is what you desire.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 17,
+        "fields": {
+            "first_name": "Ken",
+            "last_name": "Paxton",
+            "election": 3,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 2,
+            "description": "<p>After being elected to both the Texas State House and State Senate, Warren Kenneth Paxton Jr. was elected Attorney General of Texas in 2014. He became a staunch ally of President Donald Trump and backed him up in his attempts to overturn Joe Biden’s victory in the 2020 presidential election. Paxton sued the Biden administration 106 times, including on the last day of Biden’s presidency. In 2023, the GOP-controlled State House impeached Paxton over allegations of, among other things, taking bribes, obstruction of justice, and adultery. He was suspended from his position but later acquitted by the State Senate. In April 2025, Paxton announced he would challenge incumbent Senator John Cornyn in the Republican primary for the US Senate in 2026. Neither Paxton nor Cornyn cleared 50% in the primary in March, meaning a runoff was to be held in May. A few days before the runoff, President Trump endorsed Paxton against Cornyn, which pretty much handed him the win.</p><p>Texas, being the deep red state it is, was assumed to be a safe seat for the GOP to hold in the midterms. However, Paxton’s history of scandals makes him more vulnerable in a general election matchup against Democratic nominee James Talarico than Cornyn. Not only that, but Trump is growing unpopular in Texas, despite winning it in 2024 by 14 points. Can Paxton hold the MAGA movement together in Texas and coast to victory, or will his past come back to bite him in the rear?",
+            "color_hex": "#c83b3e",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://www.jetsimon.com/public/static/images/mitt-romney-2012.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2012 election.</h3><p>In spite of a hard-fought campaign from Barack Obama, you have won the Presidency. Nearly two centuries after the ill-fated campaign of Joseph Smith, you will become America's first Mormon president. Your next steps are to select a cabinet and  prepare a rousing inauguration speech. On the political front, you may have the support needed to overturn Obamacare. Or you could focus on tax cuts, or other policies entirely.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3><p>In spite of your best efforts, Barack Obama has been reelected to a second term as President.</p><p>On the political front, it appears that Obamacare will survive and go into effect. While the economy has not recovered as strongly as Obama hoped and promised, he will now have four more years to leave a strong legacy to his Democratic successor. No doubt the Republicans will learn from your failure and come back stronger in 2016.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won a true nail-biter.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for you accordingly.</p><p>The important thing is that you won. Go about implementing your agenda accordingly, and pay no attention to Democrats and pundits who call for 'compromise' and 'conciliation'.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.8,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 18,
+        "fields": {
+            "first_name": "Gary",
+            "last_name": "Johnson",
+            "election": 3,
+            "party": "Libertarian",
+            "state": "New Mexico",
+            "priority": 3,
+            "description": "<p>While his Libertarian views make him non-competitive in 2012, Gary Johnson hopes to use the election as a springboard for his party and ideology. The success of Ron Paul in the Republican primaries suggests a potential market for Johnson's views, but he realistically will be fortunate to win more than 2% of the popular vote.</p>",
+            "color_hex": "#e5b843",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/gary-johnson-2012.jpg",
+            "electoral_victory_message": "<h3>It's a miracle! You have won the 2012 election.</h3> <p>Gary Johnson? Even the people who voted for you can't believe you won.</p> <p>You are the first third-party candidate to ever win the Presidency. Now go enact that Libertarian agenda!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3> <p>But what did you expect? Your main goal was to get the Libertarian agenda out there and hope for a miracle.  The miracle never came.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2012 election.</h3> <p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. However, this  was entirely irrelevant to your chances as a third-party candidate.</p> <p>Better luck next time.</p>",
+            "description_as_running_mate": "<p>After his own failed run for the Republican nomination, Gary Johnson has the inside track on the Libertarian nomination. He also has proven experience as New Mexico's Governor.</p><p>By selecting Johnson, Ron Paul could avoid the splintering of his support to the Libertarian Party. He could also make an appeal to the socially liberal segment of the small government movement, insofar as Johnson is known to be pro-choice and independent of the religious right.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 30,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Biden",
+            "election": 3,
+            "party": "Democrat",
+            "state": "Delaware",
+            "priority": 7,
+            "description": "<p>V.P. </p>",
+            "color_hex": "#1e6fa3",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/joe-biden-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Joe Biden is the current Vice President and Obama's presumptive pick for 2012. He served as a Senator from Delaware for many years.</p><p>Well connected to the mainstream Democratic establishment, there are few complaints about Biden's performance thus far, though he does have a reputation as being gaffe-prone.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 31,
+        "fields": {
+            "first_name": "Paul",
+            "last_name": "Ryan",
+            "election": 3,
+            "party": "Republican",
+            "state": "Wisconsin",
+            "priority": 8,
+            "description": "<p>V.P.</p>",
+            "color_hex": "#c83b3e",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/paul-ryan-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Paul Ryan has gained national attention with his work on the federal budget as a Congressman from Wisconsin. His advocacy for deficit reduction appeals to a wide range of moderate conservatives, and his home state of Wisconsin promises to be a close call on election night.</p><p>On the other hand, Ryan has only served as a Congressman and has little experience running in a national or even a statewide election.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 1,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 30
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 3,
+        "fields": {
+            "candidate": 17,
+            "running_mate": 31
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Dan Bryan"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 3,
+        "candidates": [
+            16,
+            17
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 3,
+        "candidates": [
+            16,
+            17
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 3,
+        "year": 2012,
+        "is_premium": 0,
+        "display_year": "2026TX"
+    }
+]
+
+jet_data = {
+    "headerColor": "#17242c",
+    "windowColor": "#e7e1d5",
+    "containerColor": "#5d6a70",
+    "innerWindowColor": "#e7e1d5",
+    "bannerImageUrl": "https://i.postimg.cc/HkNfMrtQ/Untitled-25-July-2026-at-10-04-25-2.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#17242c";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#e7e1d5";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#5d6a70";
+
+document.getElementById("header").src = "https://i.postimg.cc/HkNfMrtQ/Untitled-25-July-2026-at-10-04-25-2.png";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#e7e1d5!important;}</style>";
+
+//#endcode
