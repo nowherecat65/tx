@@ -4,7 +4,7 @@ campaignTrail_temp.election_json = [
         "pk": 3,
         "fields": {
             "year": 2012,
-            "summary": "<p>James Talarico hopes to end decades of Republican dominance in Texas, while Ken Paxton looks to keep the state firmly in the GOP column. Paxton’s scandals, Trump’s unpopularity, and a favorable national environment for Democrats loom large in the 2026 election.</p> <ul><li>Talarico will attempt to turn his growing national profile and reform-minded message into a historic statewide victory.</li><li>Paxton will try to rally the Republican base and frame Talarico as too liberal for Texas, all while battling scandals and controversy.</li></ul>\n",
+            "summary": "<p>The second year of Donald Trump’s second term has been nothing short of chaotic. Due to all of the ICE raids, the poor economy, the Epstein files, and the unpopular Iran war, Trump’s popularity has tanked nationwide, and it has also tanked in a state MAGA holds strong, that being Texas.</p> <ul><li>State Representative James Talarico has to overcome an uphill battle if he wants to become the first Democrat elected to the US Senate in Texas since 1988.</li><li>State Attorney General Ken Paxton needs to hold the MAGA movement together going up against incumbent Senator John Cornyn in the Republican runoff, despite his scandalous history.</li></ul>\n",
             "image_url": "https://www.jetsimon.com/public/static/images/2012-election-photo.jpg",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://www.jetsimon.com/public/static/images/carville-rove.jpg",
@@ -28,7 +28,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democrat",
             "state": "Texas",
             "priority": 1,
-            "description": "<p>Over a decade ago, James Dell Talarico was a middle school teacher at Rhodes Middle School in West San Antonio. In 2018, at only 28 years old, he was elected to the Texas State House. After being invited on The Joe Rogan Experience in July 2025, he started to get attention from the media and eventually announced his candidacy for the US Senate in September. Former Congressman Colin Allred, his main opponent in the primary, dropped out in December, which led to Congresswoman Jasmine Crockett’s entry into the race. Although Talarico trailed Crockett in the majority of early polls, an appearance on The View boosted his name recognition. After an interview that was prevented from being broadcast on The Late Show with Stephen Colbert amassed over five million views on YouTube in its first 24 hours, Talarico received even more attention, which essentially led to his primary win in March.</p><p>Texas has not elected a Democrat to statewide office since 1990, nor to the US Senate since 1988. However, with Trump’s unpopularity in Texas, the scandalous history of Republican nominee Ken Paxton, and a blue wave seeming inevitable, a potential Democratic upset is entirely possible. Can Talarico ride the blue wave to become the first Democrat elected statewide in Texas in over three decades, or will he be overestimated by the polls and become another short-lived fad to turn the Lone Star State blue?</p>",
+            "description": "<p>Over a decade ago, James Talarico was a middle school teacher at Rhodes Middle School in West San Antonio. In 2018, at only 29 years old, he was elected to the Texas State House. After being invited on The Joe Rogan Experience in July 2025, he started to get attention by the media and eventually announced his candidacy for the United States Senate in September. After an interview that was prevented from being broadcasted on The Late Show with Stephen Colbert amassed over five million views on YouTube in its first 24 hours, it brought him even more attention and essentially led to his primary win in March.</p><p>Texas has not elected a Democrat to a statewide office since 1990, and not to the US Senate since 1988. However, with Trump’s unpopularity in Texas, and that a blue wave seems inevitable, it’s entirely possible for a potential Democratic upset.</p>",
             "color_hex": "#1e6fa3",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
@@ -51,7 +51,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Republican",
             "state": "Texas",
             "priority": 2,
-            "description": "<p>After being elected to both the Texas State House and State Senate, Warren Kenneth Paxton Jr. was elected Attorney General of Texas in 2014. He became a staunch ally of President Donald Trump and backed him up in his attempts to overturn Joe Biden’s victory in the 2020 presidential election. Paxton sued the Biden administration 106 times, including on the last day of Biden’s presidency. In 2023, the GOP-controlled State House impeached Paxton over allegations of, among other things, taking bribes, obstruction of justice, and adultery. He was suspended from his position but later acquitted by the State Senate. In April 2025, Paxton announced he would challenge incumbent Senator John Cornyn in the Republican primary for the US Senate in 2026. Neither Paxton nor Cornyn cleared 50% in the primary in March, meaning a runoff was to be held in May. A few days before the runoff, President Trump endorsed Paxton against Cornyn, which pretty much handed him the win.</p><p>Texas, being the deep red state it is, was assumed to be a safe seat for the GOP to hold in the midterms. However, Paxton’s history of scandals makes him more vulnerable in a general election matchup against Democratic nominee James Talarico than Cornyn. Not only that, but Trump is growing unpopular in Texas, despite winning it in 2024 by 14 points. Can Paxton hold the MAGA movement together in Texas and coast to victory, or will his past come back to bite him in the rear?",
+            "description": "<p>After serving in both the Texas State House and State Senate, Ken Paxton was elected Attorney General of Texas in 2014. He became a staunch ally of President Donald Trump, and backed him up in his attempts to overturn Joe Biden’s victory in the 2020 presidential election. In 2023, the GOP-controlled State House impeached Paxton on accounts of, among other things, taking bribes, obstruction of justice, and adultery. He was suspended from his position, but later acquitted by the State Senate.</p><p>Paxton, now challenging incumbent Senator John Cornyn in the Republican primary for the US Senate, was forced into a runoff with Cornyn after neither cleared the 50% needed to get the nomination. Donald Trump’s endorsement is crucial here, and could be a godsend in a state where MAGA is loyal to the president.",
             "color_hex": "#c83b3e",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 1,
@@ -211,12 +211,12 @@ campaignTrail_temp.temp_election_list = [
 ]
 
 jet_data = {
-    "headerColor": "#3F4243",
-    "windowColor": "#e7e1d5",
-    "containerColor": "#C1C4C6",
-    "innerWindowColor": "#e7e1d5",
+    "headerColor": "#4C454B",
+    "windowColor": "#3775CF",
+    "containerColor": "#D28D34",
+    "innerWindowColor": "#3775CF",
     "bannerImageUrl": "https://i.postimg.cc/HkNfMrtQ/Untitled-25-July-2026-at-10-04-25-2.png",
-    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "backgroundImageUrl": "https://i.postimg.cc/YqS7bFLc/background-tx2026-5.jpg",
     "endingTextColor": "#000000",
     "customQuote": ""
 }
@@ -225,21 +225,23 @@ jet_data = {
 
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#3F4243";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#4C454B";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#e7e1d5";
+document.body.style.backgroundSize = "cover"
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#3775CF";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-$(".container")[0].style.backgroundColor = "#C1C4C6";
+$(".container")[0].style.backgroundColor = "#D28D34";
 
 document.getElementById("header").src = "https://i.postimg.cc/HkNfMrtQ/Untitled-25-July-2026-at-10-04-25-2.png";
 
-document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+document.body.background = "https://i.postimg.cc/YqS7bFLc/background-tx2026-5.jpg";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#e7e1d5!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#3775CF!important;}</style>";
 
 let style = document.createElement('style');
 style.type = 'text/css';
@@ -248,16 +250,16 @@ style.id = 'dynamic-style';
 
 style.innerHTML = `
   .campaign_trail_start_emphasis {
-    background-color: #3F4243;
+    background-color: #4C454B;
   }
   #state_info h3 {
-    background-color: #C1C4C6;
+    background-color: #D28D34;
   }
   #state_result h3 {
-    background-color: #C1C4C6;
+    background-color: #D28D34;
   }
   #overall_result h3 {
-    background-color: #C1C4C6;
+    background-color: #D28D34;
   }
   .inner_window_sign_display {
     margin: 0;
@@ -276,16 +278,16 @@ style.innerHTML = `
     padding-top: 3em;
   }
   .overlay_window h3 {
-    background-color: #c1c4c6;
+    background-color: #D28D34;
   }
   .inner_window_question h3 {
-    background-color: #c1c4c6;
+    background-color: #D28D34;
   }
   #overall_result_container {
-    background-color: #E7E1D5;
+    background-color: #3775CF;
   }
   #state_result_container {
-    background-color: #E7E1D5;
+    background-color: #3775CF;
   }
   #map_container {
     background: #F8F8F8;
@@ -299,7 +301,7 @@ style.innerHTML = `
     height: auto;
   }
   #menu_container {
-    background-color: #E7E1D5 !important;
+    background-color: #3775CF !important;
   }
   a:-webkit-any-link {
     color: #000000;
