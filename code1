@@ -3,7 +3,7 @@ campaignTrail_temp.election_json = [
         "model": "campaign_trail.election",
         "pk": 3,
         "fields": {
-            "year": 2012,
+            "year": 2026,
             "summary": "<p>The second year of Donald Trump’s second term has been nothing short of chaotic. Due to all of the ICE raids, the poor economy, the Epstein files, and the unpopular Iran war, Trump’s popularity has tanked nationwide, and it has also tanked in a state MAGA holds strong, that being Texas.</p> <ul><li>State Representative James Talarico has to overcome an uphill battle if he wants to become the first Democrat elected to the US Senate in Texas since 1988.</li><li>State Attorney General Ken Paxton needs to hold the MAGA movement together going up against incumbent Senator John Cornyn in the Republican runoff, despite his scandalous history.</li></ul>\n",
             "image_url": "https://www.jetsimon.com/public/static/images/2012-election-photo.jpg",
             "winning_electoral_vote_number": 270,
@@ -12,7 +12,7 @@ campaignTrail_temp.election_json = [
             "has_visits": 0,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
             "creator": "Dan Bryan",
-            "display_year": "2026TX"
+            "display_year": "2026 TX Senate"
         }
     }
 ]
@@ -26,7 +26,7 @@ campaignTrail_temp.candidate_json = [
             "last_name": "Talarico",
             "election": 3,
             "party": "Democrat",
-            "state": "Travis County",
+            "state": "Travis",
             "priority": 1,
             "description": "<p>Over a decade ago, James Talarico was a middle school teacher at Rhodes Middle School in West San Antonio. In 2018, at only 29 years old, he was elected to the Texas State House. After being invited on The Joe Rogan Experience in July 2025, he started to get attention by the media and eventually announced his candidacy for the United States Senate in September. After an interview that was prevented from being broadcasted on The Late Show with Stephen Colbert amassed over five million views on YouTube in its first 24 hours, it brought him even more attention and essentially led to his primary win in March.</p><p>Texas has not elected a Democrat to a statewide office since 1990, and not to the US Senate since 1988. However, with Trump’s unpopularity in Texas, and that a blue wave seems inevitable, it’s entirely possible for a potential Democratic upset.</p>",
             "color_hex": "#2460AB",
@@ -49,7 +49,7 @@ campaignTrail_temp.candidate_json = [
             "last_name": "Paxton",
             "election": 3,
             "party": "Republican",
-            "state": "Collin County",
+            "state": "Collin",
             "priority": 2,
             "description": "<p>After serving in both the Texas State House and State Senate, Ken Paxton was elected Attorney General of Texas in 2014. He became a staunch ally of President Donald Trump, and backed him up in his attempts to overturn Joe Biden’s victory in the 2020 presidential election. In 2023, the GOP-controlled State House impeached Paxton on accounts of, among other things, taking bribes, obstruction of justice, and adultery. He was suspended from his position, but later acquitted by the State Senate.</p><p>Paxton, now challenging incumbent Senator John Cornyn in the Republican primary for the US Senate, was forced into a runoff with Cornyn after neither cleared the 50% needed to get the nomination. Donald Trump’s endorsement is crucial here, and could be a godsend in a state where MAGA is loyal to the president.",
             "color_hex": "#9C1A10",
@@ -174,7 +174,7 @@ campaignTrail_temp.global_parameter_json = [
             "issue_stance_6_max": 0.71,
             "global_variance": 0.01,
             "state_variance": 0.005,
-            "question_count": 25,
+            "question_count": 20,
             "default_map_color_hex": "#C9C9C9",
             "no_state_map_color_hex": "#999999"
         }
@@ -204,9 +204,9 @@ campaignTrail_temp.opponents_weighted_json = [
 campaignTrail_temp.temp_election_list = [
     {
         "id": 3,
-        "year": 2012,
+        "year": 2026,
         "is_premium": 0,
-        "display_year": "2026TX"
+        "display_year": "2026 TX Senate"
     }
 ]
 
@@ -223,13 +223,9 @@ jet_data = {
 
 //#startcode
 
-
-
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#4C454B";
 
 document.body.style.backgroundSize = "cover"
-
-e.HomeStateText = "Home County:";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#3775CF";
 
@@ -245,9 +241,21 @@ document.body.background = "https://i.postimg.cc/YqS7bFLc/background-tx2026-5.jp
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#3775CF!important;}</style>";
 
+RecReading=true
+
 $("#site_credits p").css({"color": "white"});
 $("#site_credits a").css({"color": "white"});
 
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#4C454B",
+    "header_image_url": "",
+    "header_text_color": "#fff",
+    "description_text_color": "#000000",
+    "description_background_color": "#f8f8f8",
+    "main_color": "#3775CF",
+    "secondary_color": "#D28D34",
+    "ui_text_color": "#ffffff"
+}
 
 let style = document.createElement('style');
 style.type = 'text/css';
@@ -294,10 +302,14 @@ style.innerHTML = `
     background-color: #D28D34;
     border-color: white;
     color: white;
-    margin-bottom: .1em;
+    margin-top: .1em;
+  }
+  .inner_window_w_desc {
+    border: none;
   }
   .inner_window_question {
     margin-bottom: .5em;
+    accent-color: #4C454B;
   }
   #overall_result_container {
     background-color: #3775CF;
@@ -730,7 +742,7 @@ setupMusicPlayer();
 
 // Changing States to County
 
-e.HomeStateText = "Residence:";
+e.HomeStateText = "Home County:";
 
 document.getElementById("inner_window_1").children[0].innerHTML = `Do you have what it takes to win a State Election?</h3>`
 
