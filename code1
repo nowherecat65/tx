@@ -9,7 +9,7 @@ campaignTrail_temp.election_json = [
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://www.jetsimon.com/public/static/images/carville-rove.jpg",
             "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Political News and Analysis</h4> <a href=\"http://www.realclearpolitics.com/\" target=\"_blank\">Real Clear Politics</a> -- <a href=\"http://www.theatlantic.com/\" target=\"_blank\">The Atlantic</a> -- <a href=\"http://www.politico.com/\" target=\"_blank\">Politico</a> -- <a href=\"http://www.huffingtonpost.com/\" target=\"_blank\">Huffington Post</a> -- <a href=\"http://www.foxnews.com/politics/index.html\" target=\"_blank\">Fox News Politics</a> <h4>Books by the Candidates</h4>Barack Obama - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1400082773/amhius20-20\" target=\"_blank\">Dreams from My Father: A Story of Race and Inheritance</a><br>Barack Obama - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0307455874/amhius20-20\" target=\"_blank\">The Audacity of Hope: Thoughts on Reclaiming the American Dream (Vintage)</a><br> Mitt Romney - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0312671733/amhius20-20\" target=\"_blank\">No Apology: Believe in America</a><br> Gary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a><h4>Politics in 2012</h4> Edward Klein - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1596987855/amhius20-20\" target=\"_blank\">The Amateur</a><br>Michael Kranish & Scott Helman - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0062123289/amhius20-20\" target=\"_blank\">The Real Romney</a><br>Lawrence Lessig - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0446576433/amhius20-20\" target=\"_blank\">Republic, Lost: How Money Corrupts Congress--and a Plan to Stop It</a><br>Ron Suskind - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0061429252/amhius20-20\" target=\"_blank\">Confidence Men: Wall Street, Washington, and the Education of a President</a><h4>The Financial Crisis</h4> Johan Norberg - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1935308130/amhius20-20\" target=\"_blank\">Financial Fiasco: How America's Infatuation with Home Ownership and Easy Money Created the Economic Crisis</a><br>John Bellamy Foster & Fred Magdoff - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1583671846/amhius20-20\" target=\"_blank\">The Great Financial Crisis: Causes and Consequences</a>",
-            "has_visits": 1,
+            "has_visits": 0,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
             "creator": "Dan Bryan",
             "display_year": "2026TX"
@@ -26,7 +26,7 @@ campaignTrail_temp.candidate_json = [
             "last_name": "Talarico",
             "election": 3,
             "party": "Democrat",
-            "state": "Texas",
+            "state": "Travis",
             "priority": 1,
             "description": "<p>Over a decade ago, James Talarico was a middle school teacher at Rhodes Middle School in West San Antonio. In 2018, at only 29 years old, he was elected to the Texas State House. After being invited on The Joe Rogan Experience in July 2025, he started to get attention by the media and eventually announced his candidacy for the United States Senate in September. After an interview that was prevented from being broadcasted on The Late Show with Stephen Colbert amassed over five million views on YouTube in its first 24 hours, it brought him even more attention and essentially led to his primary win in March.</p><p>Texas has not elected a Democrat to a statewide office since 1990, and not to the US Senate since 1988. However, with Trump’s unpopularity in Texas, and that a blue wave seems inevitable, it’s entirely possible for a potential Democratic upset.</p>",
             "color_hex": "#2460AB",
@@ -49,7 +49,7 @@ campaignTrail_temp.candidate_json = [
             "last_name": "Paxton",
             "election": 3,
             "party": "Republican",
-            "state": "Texas",
+            "state": "Collin",
             "priority": 2,
             "description": "<p>After serving in both the Texas State House and State Senate, Ken Paxton was elected Attorney General of Texas in 2014. He became a staunch ally of President Donald Trump, and backed him up in his attempts to overturn Joe Biden’s victory in the 2020 presidential election. In 2023, the GOP-controlled State House impeached Paxton on accounts of, among other things, taking bribes, obstruction of justice, and adultery. He was suspended from his position, but later acquitted by the State Senate.</p><p>Paxton, now challenging incumbent Senator John Cornyn in the Republican primary for the US Senate, was forced into a runoff with Cornyn after neither cleared the 50% needed to get the nomination. Donald Trump’s endorsement is crucial here, and could be a godsend in a state where MAGA is loyal to the president.",
             "color_hex": "#9C1A10",
@@ -228,6 +228,8 @@ jet_data = {
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#4C454B";
 
 document.body.style.backgroundSize = "cover"
+
+e.HomeStateText = "Home County:";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#3775CF";
 
