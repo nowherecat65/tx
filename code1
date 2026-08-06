@@ -30,7 +30,7 @@ campaignTrail_temp.candidate_json = [
             "priority": 1,
             "description": "<p>Over a decade ago, James Talarico was a middle school teacher at Rhodes Middle School in West San Antonio. In 2018, at only 29 years old, he was elected to the Texas State House. After being invited on The Joe Rogan Experience in July 2025, he started to get attention by the media and eventually announced his candidacy for the United States Senate in September. After an interview that was prevented from being broadcasted on The Late Show with Stephen Colbert amassed over five million views on YouTube in its first 24 hours, it brought him even more attention and essentially led to his primary win in March.</p><p>Texas has not elected a Democrat to a statewide office since 1990, and not to the US Senate since 1988. However, with Trump’s unpopularity in Texas, and that a blue wave seems inevitable, it’s entirely possible for a potential Democratic upset.</p>",
             "color_hex": "#2460AB",
-            "secondary_color_hex": "#90C0FF",
+            "secondary_color_hex": "#8eb7d1",
             "is_active": 1,
             "image_url": "https://i.postimg.cc/3JgRDKFb/jamestalarico-v2.jpg",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2012 election.</h3><p>In spite of a hard-fought challenge from Mitt Romney, you have held on to the Presidency.</p><p>On the political front, it appears that your health care legislation that was passed in early 2010 will survive and go into effect. While the economy has not yet recovered as strongly as you hoped and promised, you will now have four more years to leave a strong legacy to your Democratic successor.</p>",
@@ -53,7 +53,7 @@ campaignTrail_temp.candidate_json = [
             "priority": 2,
             "description": "<p>After serving in both the Texas State House and State Senate, Ken Paxton was elected Attorney General of Texas in 2014. He became a staunch ally of President Donald Trump, and backed him up in his attempts to overturn Joe Biden’s victory in the 2020 presidential election. In 2023, the GOP-controlled State House impeached Paxton on accounts of, among other things, taking bribes, obstruction of justice, and adultery. He was suspended from his position, but later acquitted by the State Senate.</p><p>Paxton, now challenging incumbent Senator John Cornyn in the Republican primary for the US Senate, was forced into a runoff with Cornyn after neither cleared the 50% needed to get the nomination. Donald Trump’s endorsement is crucial here, and could be a godsend in a state where MAGA is loyal to the president.",
             "color_hex": "#9C1A10",
-            "secondary_color_hex": "#FFA0A0",
+            "secondary_color_hex": "#cd8c87",
             "is_active": 1,
             "image_url": "https://i.postimg.cc/jdjNHnCv/kenpaxton.jpg",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2012 election.</h3><p>In spite of a hard-fought campaign from Barack Obama, you have won the Presidency. Nearly two centuries after the ill-fated campaign of Joseph Smith, you will become America's first Mormon president. Your next steps are to select a cabinet and  prepare a rousing inauguration speech. On the political front, you may have the support needed to overturn Obamacare. Or you could focus on tax cuts, or other policies entirely.</p>",
@@ -68,15 +68,15 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 18,
         "fields": {
-            "first_name": "Gary",
-            "last_name": "Johnson",
+            "first_name": "Ted",
+            "last_name": "Brown",
             "election": 3,
             "party": "Libertarian",
             "state": "New Mexico",
             "priority": 3,
             "description": "<p>While his Libertarian views make him non-competitive in 2012, Gary Johnson hopes to use the election as a springboard for his party and ideology. The success of Ron Paul in the Republican primaries suggests a potential market for Johnson's views, but he realistically will be fortunate to win more than 2% of the popular vote.</p>",
             "color_hex": "#e5b843",
-            "secondary_color_hex": "#FFFFC0",
+            "secondary_color_hex": "#f2dba1",
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/static/images/gary-johnson-2012.jpg",
             "electoral_victory_message": "<h3>It's a miracle! You have won the 2012 election.</h3> <p>Gary Johnson? Even the people who voted for you can't believe you won.</p> <p>You are the first third-party candidate to ever win the Presidency. Now go enact that Libertarian agenda!</p>",
@@ -99,7 +99,30 @@ campaignTrail_temp.candidate_json = [
             "priority": 7,
             "description": "<p>V.P. </p>",
             "color_hex": "#1e6fa3",
-            "secondary_color_hex": "#90C0FF",
+            "secondary_color_hex": "#8eb7d1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/joe-biden-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Joe Biden is the current Vice President and Obama's presumptive pick for 2012. He served as a Senator from Delaware for many years.</p><p>Well connected to the mainstream Democratic establishment, there are few complaints about Biden's performance thus far, though he does have a reputation as being gaffe-prone.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 32,
+        "fields": {
+            "first_name": "Libertarian Party of",
+            "last_name": "Texas",
+            "election": 3,
+            "party": "Democrat",
+            "state": "Delaware",
+            "priority": 7,
+            "description": "<p>V.P. </p>",
+            "color_hex": "#e5b843",
+            "secondary_color_hex": "#f2dba1",
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/static/images/joe-biden-2012.jpg",
             "electoral_victory_message": "n/a",
@@ -122,7 +145,7 @@ campaignTrail_temp.candidate_json = [
             "priority": 8,
             "description": "<p>V.P.</p>",
             "color_hex": "#c83b3e",
-            "secondary_color_hex": "#FFA0A0",
+            "secondary_color_hex": "#cd8c87",
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/static/images/paul-ryan-2012.jpg",
             "electoral_victory_message": "n/a",
@@ -142,6 +165,14 @@ campaignTrail_temp.running_mate_json = [
         "fields": {
             "candidate": 16,
             "running_mate": 30
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 1,
+        "fields": {
+            "candidate": 18,
+            "running_mate": 32
         }
     },
     {
@@ -186,7 +217,8 @@ campaignTrail_temp.opponents_default_json = [
         "election": 3,
         "candidates": [
             16,
-            17
+            17,
+            18
         ]
     }
 ]
@@ -196,7 +228,8 @@ campaignTrail_temp.opponents_weighted_json = [
         "election": 3,
         "candidates": [
             16,
-            17
+            17,
+            18
         ]
     }
 ]
