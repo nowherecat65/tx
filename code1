@@ -69,7 +69,7 @@ campaignTrail_temp.candidate_json = [
         "pk": 18,
         "fields": {
             "first_name": "Ted",
-            "last_name": "Brown",
+            "last_name": "Brown/Others",
             "election": 3,
             "party": "Libertarian",
             "state": "New Mexico",
